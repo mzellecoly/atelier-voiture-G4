@@ -1,7 +1,30 @@
 .App {
   text-align: center;
+  font-size: 30px;
 }
 
+h2{
+  background-color: #61dafb;
+  color: white;
+}
+
+table{
+ width: 50%;
+ margin: 0 auto;
+ /* border: 1px solid black; */
+}
+thead{
+  color: #61dafb;
+  font-weight: bold;
+  font-size: 25px;
+ /* border: 1px solid black; */
+
+}
+tbody{
+  font-size: 20px;
+ /* border-left: 1px solid black; */
+
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
