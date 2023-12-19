@@ -1,6 +1,7 @@
 // App.js
 import React from 'react';
 import MesVoitures from './Mesvoitures';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

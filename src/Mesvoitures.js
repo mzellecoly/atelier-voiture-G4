@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 import Voiture from './Voiture';
 import './App.css'
+import Header from './Header';
 
 class MesVoitures extends Component {
   constructor(props) {
@@ -18,16 +19,11 @@ class MesVoitures extends Component {
     ],
     };
   }
-  getAge = (anneeFabrication) => {
-    const currentYear = new Date().getFullYear();
-    return currentYear - anneeFabrication;
-  };
-
 
   render() {
     return (
       <div>
-        <h2>Liste des Voitures 🚗🚦</h2>
+        <Header/>
         <Voiture voitures={this.state.voitures} />
       </div>
     );
